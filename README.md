@@ -4,26 +4,26 @@ Welcome to my repository on data structures and algorithms! Here, you will find 
 
 ## Table of Contents
 * ###  Data Structures
-    * [Arrays](/README.md#table-of-contents)
-    * [Linked Lists]
-    * [Trees]
-    * [Binary Trees]
-    * [Graphs]
-    * [Heaps]
-    * [Hash Tables]
+    * [Arrays](/README.md#arrays)
+    * [Linked Lists](/README.md#linked-lists)
+    * [Trees](/README.md#trees)
+    * [Binary Trees](/README.md#binary-trees)
+    * [Graphs](/README.md#graphs)
+    * [Heaps](/README.md#heaps)
+    * [Hash Tables](/README.md#hash-tables)
 * ###  Algorithms
     * #### Sorting
-        * Bubble
-        * Insertion
-        * Merge
-        * Quick
+        * [Bubble](/README.md#bubble)
+        * [Insertion](/README.md#insertion)
+        * [Merge](/README.md#merge)
+        * [Quick](/README.md#quick)
     * ### Searching
-        * Linear
-        * Binary
+        * [Linear](/README.md#linear)
+        * [Binary](/README.md#binary)
     * ### Graph Algorithms
-        * Depth First Search (DFS)
-        * Breadth First Search (BFS)
-        * Djikstra's Algorithm
+        * [Depth First Search (DFS)](/README.md#breadth-first-search-bfs)
+        * [Breadth First Search (BFS)](/README.md#depth-first-search-dfs)
+        * [Djikstra's Algorithm](/README.md#dijkstras-algorithm)
 
 ## Data Structures
 
