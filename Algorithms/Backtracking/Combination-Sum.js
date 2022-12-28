@@ -7,7 +7,7 @@
  */
 
 let givenArr = [7, 2, 6, 5];
-let givenSum = 8;
+let givenSum = 16;
 let ans = [];
 
 //Main function
@@ -15,12 +15,13 @@ let ans = [];
 const combinationalSum = (arr, sum) => {
   const helper = (arr, currSum, index, tempArr) => {
     if (currSum === 0) {
-      ans.push(temp);
+      ans.push([...tempArr]);
       return;
     }
     for (let i = index; i < arr.length; i++) {
       if (currSum - arr[i] >= 0) {
         temp.push(arr[i]);
+        
         helper(arr, currSum - arr[i], i, tempArr);
         temp.pop();
       }
@@ -28,7 +29,7 @@ const combinationalSum = (arr, sum) => {
   };
 
   let temp = [];
-  let set = new Set(...arr);
+  let set = new Set(arr);
   arr = Array.from(set).sort();
   helper(arr, sum, 0, temp);
 };

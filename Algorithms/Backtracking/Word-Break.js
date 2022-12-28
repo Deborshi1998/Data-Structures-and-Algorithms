@@ -12,12 +12,12 @@ let ans = [];
 
 const wordBreak = (currArr, index) =>{
     if(index === s.length){
-        ans.push(currArr);
-        console.log(ans)
+        ans.push(currArr.join(" "));
+        ans
         return;
     }
 
-    for(let i = index + 1; i < s.length; i++){
+    for(let i = index + 1; i <= s.length; i++){
         let word = s.slice(index, i);
         if(dict.has(word)){
             currArr.push(word);
