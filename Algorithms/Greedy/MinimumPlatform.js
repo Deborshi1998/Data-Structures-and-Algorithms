@@ -26,7 +26,7 @@ function minPlatforms(arrival, departure, n) {
       platforms -= 1;
       departureIndex += 1;
     }
-    platforms 
+ 
   }
   return ans;
 }
