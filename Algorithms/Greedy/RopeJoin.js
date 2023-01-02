@@ -14,10 +14,11 @@ function minCost(arr, n) {
             
             if(!stack.length) break;
             stack.push(rope1 + rope2);
+            stack.sort((a,b)=>b-a)
         }
        
         
        
-       return result;
+       return sums;
         
     }
